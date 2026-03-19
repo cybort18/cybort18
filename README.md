@@ -58,8 +58,8 @@ Berikut adalah beberapa proyek unggulan yang merepresentasikan keterampilan saya
 ### 📊 Statistik GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=zaky07&show_icons=true&theme=tokyonight&hide_border=true" alt="Zaky's GitHub Stats" width="48%" />
-  <img src="https://streak-stats.demolab.com?user=zaky07&theme=tokyonight&hide_border=true" alt="Zaky's GitHub Streak" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=cybort18&show_icons=true&theme=tokyonight&hide_border=true" alt="Zaky's GitHub Stats" width="48%" />
+  <img src="https://streak-stats.demolab.com?user=cybort18&theme=tokyonight&hide_border=true" alt="Zaky's GitHub Streak" width="48%" />
 </p>
 
 ---
