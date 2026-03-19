@@ -33,7 +33,7 @@ Berikut adalah teknologi dan alat yang saya pelajari dan gunakan dalam pengemban
 * **Juara 3 (2nd Runner Up) Final Project - AI/ML Weekly Class:** Diselenggarakan oleh Google Developer Group (GDG) on Campus UINJKT (2025).
 * **Achiever Tier 1 - JuaraGCP Season 11 (2025):** Berhasil menyelesaikan 8 *Google Cloud Skill Badges* dengan pengalaman langsung di bidang AI, *machine learning*, dan konsol Google Cloud.
 * **Finalis (Top 10) Hackathon IFEST (2025):** Berkompetisi hingga tahap final (Top 10 dari 15 tim) yang diselenggarakan oleh IDCloudHost & ILCS.
-* **Peserta Aktif Hackathon & Kompetisi:** Berpartisipasi dalam COMPFEST 17 AI Innovation Challenge, DigiHack 2025, dan NEXTGEN AGENTS HACKATHON.
+* **Participant:** Berpartisipasi dalam COMPFEST 17 AI Innovation Challenge, DigiHack 2025, dan NEXTGEN AGENTS HACKATHON.
 * **Pengalaman Kreatif:** Aktif sebagai *Video Editor* di Berlsi X TechNews dan *Creative Media* di HITLAB (2025 - Sekarang).
 
 ---
@@ -42,12 +42,11 @@ Berikut adalah teknologi dan alat yang saya pelajari dan gunakan dalam pengemban
 
 Berikut adalah beberapa proyek unggulan yang merepresentasikan keterampilan saya:
 
-| Nama Proyek | Deskripsi & Teknologi |
-| :--- | :--- |
-| **Backend Final Project - GDGoc** | Proyek pemenang Juara 1 dalam perancangan arsitektur *backend* yang efisien.<br>🔹 *Keterampilan: Backend Development, Problem Solving* |
-| **AI/ML Final Project - GDGoc** | Proyek peraih juara 3 dalam mengimplementasikan model *Machine Learning* untuk pemecahan masalah.<br>🔹 *Keterampilan: Python, Machine Learning, Data Analytics* |
-| **JuaraGCP Cloud Implementations** | Berbagai implementasi layanan *cloud* dan keamanan data selama program JuaraGCP.<br>🔹 *Keterampilan: Google Cloud Platform, Cloud Infrastructure* |
-| **Multimedia & UI/UX Design** | Kumpulan karya desain grafis, purwarupa UI/UX, dan *video editing* dari masa SMK hingga proyek organisasi saat ini.<br>🔹 *Keterampilan: Figma, Video Editing, Graphic Design* |
+| Nama Proyek 
+| :--- 
+| **[Motorsport Event](https://github.com/cybort18/MotorsportEvent)**<br>A modern, responsive website for motorsport enthusiasts featuring Formula 1, FIA World Endurance Championship (WEC), and World Rally Championship (WRC) news, schedules, and standings.<br>🔹 *HTML/CSS/Javascipt*<br> 🔹 **Keterampilan:** *FrontEnd* 
+| **[SIAGA - AI Engine](https://github.com/cybort18/SIAGA)**<br>Project for the AI Innovation Challenge - COMPFEST 17 Theme: Smart City and Urban Living.<br>🔹 *Python*<br> 🔹 **Keterampilan:** *Machine Learning, BackEnd, Model Development* |
+| **[Video Game Sales Analysis](https://github.com/cybort18/video-game-sales-analysis)**<br>Analysis of global video game sales dataset using Python.<br>🔹 *Python*<br> 🔹 **Keterampilan:** *Data Analyst, Data Cleaning, Exploratory Data Analysis* |
 
 ---
 
