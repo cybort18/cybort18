@@ -70,17 +70,11 @@ With experience in academic projects, AI/ML development, and backend systems, I 
 
 ### 🏢 PT Tempo Inti Media Tbk (Internship)
 📅 Feb 2023 - Apr 2023  
-- Designed and optimized printing layouts  
-- Ensured production quality and efficiency  
-- Improved workflow processes  
 
 ---
 
 ### 🎮 HoYoLAB (Content Creator & Game Guide)
 📅 Mar 2021 - Jul 2023  
-- Created engaging content for 2000+ users  
-- Participated in beta testing and bug reporting  
-- Collaborated with developers for improvements  
 
 ---
 
@@ -89,8 +83,9 @@ With experience in academic projects, AI/ML development, and backend systems, I 
 🥇 1st Place - Backend Weekly Class (GDGoc UINJKT, 2025)  
 🥈 2nd Runner Up - AI/ML Weekly Class (GDGoc UINJKT, 2025)  
 ☁️ JuaraGCP Season 11 (Google Cloud - Tier 1)  
-🚀 Participant - COMPFEST 17 AI Innovation Challenge  
-🤖 Participant - NEXTGEN AGENTS Hackathon  
+🏅 Finalist Top 15 - Hackathon x IDCloudHost & ILCS
+🚀 Participant - COMPFEST 17 AI Innovation Challenge
+🤖 Participant - DigiHack 2025: AI for Good - Empowering Innovation with Telkom Group  
 
 ---
 
@@ -129,5 +124,5 @@ Multimedia Major (2021 - 2024)
 ---
 
 <p align="center">
-  ⭐ "Turning data into meaningful insights and impactful solutions."
+  ⭐ "Life Find's a way"
 </p>
