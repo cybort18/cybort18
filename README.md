@@ -62,7 +62,7 @@ With experience in academic projects, AI/ML development, and backend systems, I 
 - Python (Pandas, Matplotlib)  
 - Google Colab  
 
-🔗 *Project Link:* (Add your link here)
+🔗 *Project Link:* [(Add your link here)](https://github.com/cybort18/video-game-sales-analysis)
 
 ---
 
