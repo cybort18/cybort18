@@ -1,7 +1,3 @@
-<div align="center">
-  <h3>AI Enthusiast | Cloud Infrastructure | Web Development</h3>
-</div>
-
 ## Halo, Saya Muhammad Zaky Ramadhan! 👋
 
 Saya adalah lulusan Multimedia yang saat ini sedang menempuh pendidikan S1 program studi **Sistem Informasi** di **Universitas Islam Negeri (UIN) Syarif Hidayatullah Jakarta**. Saya memiliki minat yang besar dan terus berkembang dalam bidang *Artificial Intelligence (AI) Engineer*, *Machine Learning*, *Web Development*, *Cloud Infrastructure*, dan *Data Analytics*. 
