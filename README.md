@@ -148,7 +148,7 @@ exploring:
 
 <div align="center">
 
-> *Building technology that transforms ideas into meaningful impact.*
+ *Building technology that transforms ideas into meaningful impact.*
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:4F46E5,50:7C3AED,100:A855F7"/>
 
