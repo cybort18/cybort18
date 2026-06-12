@@ -41,17 +41,6 @@ I enjoy turning ideas into real-world solutions, participating in hackathons, an
 * Backend Engineering
 * Cloud Computing
 * Data Analytics
-* Open Source Collaboration
-
-### Open To
-
-* Internship Opportunities
-* Freelance Projects
-* AI/ML Development
-* Full Stack Development
-* Tech Collaboration
-
----
 
 # Tech Stack
 
@@ -65,86 +54,27 @@ I enjoy turning ideas into real-world solutions, participating in hackathons, an
 
 # Featured Projects
 
-## 🚀 U_Design
-
-**AI-Powered Digital Intellectual Property Protection Platform**
-
-A platform designed for digital creators to protect and verify ownership of their artwork using **Gemini AI**, **IPFS**, and **Firebase**.
-
-### Highlights
-
-* AI Semantic Fingerprinting
-* Global Anti-Plagiarism Detection
-* Decentralized Storage with IPFS
-* Digital Authenticity Certificates
-* Firebase Authentication & Vault
-
-**Tech Stack**
-
-`React` `TypeScript` `Firebase` `Gemini AI` `IPFS` `Pinata`
-
-🔗 https://github.com/cybort18/U_Design
-
----
-
-## 🤖 SIAGA
-
-**Smart Emergency Response AI Engine**
-
-An AI-powered system developed for the **COMPFEST 17 AI Innovation Challenge** that processes emergency audio reports and converts them into actionable information.
-
-### Highlights
-
-* Speech-to-Text Pipeline
-* IndoBERT Classification
-* Named Entity Recognition (NER)
-* FastAPI Backend
-* Smart City AI Solution
-
-**Tech Stack**
-
-`Python` `FastAPI` `PyTorch` `Transformers` `Google Cloud`
-
-🔗 https://github.com/cybort18/SIAGA
-
----
-
-## 🏎️ MotorsportEvent
-
-**Modern Motorsport Information Portal**
-
-A responsive web platform covering Formula 1, FIA WEC, and WRC schedules, standings, and news.
-
-### Highlights
-
-* Responsive Design
-* Interactive Filtering
-* Motorsport News Dashboard
-* Multi-Series Coverage
-
-**Tech Stack**
-
-`HTML` `CSS` `JavaScript`
-
-🔗 https://github.com/cybort18/MotorsportEvent
-
+| Name Project 
+| :--- 
+| **[U_Design](https://github.com/cybort18/U_Design)**<br>A platform designed for digital creators to protect and verify ownership of their artwork using **Gemini AI**, **IPFS**, and **Firebase**.<br>🔹 **Techstact:** `React` `TypeScript` `Firebase` `Gemini AI` `IPFS` `Pinata`<br>
+| **[SIAGA](https://github.com/cybort18/SIAGA)**<br>An AI-powered system developed for the **COMPFEST 17 AI Innovation Challenge** that processes emergency audio reports and converts them into actionable information.<br>🔹 **Techstact:** `Python` `FastAPI` `PyTorch` `Transformers` `Google Cloud`<br>
+| **[MotorsportEvent](https://github.com/cybort18/MotorsportEvent)**<br>A responsive web platform covering Formula 1, FIA WEC, and WRC schedules, standings, and news.<br>🔹 **Techstact:** `HTML` `CSS` `JavaScript`<br> |
 ---
 
 # Achievements
+**1st Place** — Backend Weekly Class, GDGoC UIN Jakarta
 
-🏆 **1st Place** — Backend Weekly Class, GDGoC UIN Jakarta
+**2nd Runner Up** — AI/ML Weekly Class, GDGoC UIN Jakarta
 
-🥈 **2nd Runner Up** — AI/ML Weekly Class, GDGoC UIN Jakarta
+**JuaraGCP Season 11** — Tier 1
 
-☁️ **JuaraGCP Season 11** — Tier 1
+**JuaraGCP Season 12** — Tier 3
 
-☁️ **JuaraGCP Season 12** — Tier 3
+**Participant** — COMPFEST 17 AI Innovation Challenge
 
-🚀 **Participant** — COMPFEST 17 AI Innovation Challenge
+**Finalist** — IFEST Hackathon
 
-🏅 **Finalist** — IFEST Hackathon
-
-🤖 **Participant** — DigiHack 2025 AI for Good
+**Participant** — DigiHack 2025 AI for Good
 
 ---
 
@@ -182,18 +112,16 @@ learning:
 
 building:
   - U_Design
-  - AI-Powered Applications
-  - Intelligent Web Systems
+  - WEB3 Software-Defined DePIN (Decentralized Physical Infrastructure Network)
+  - Turn-Based Game RPG
 
 exploring:
-  - Generative AI
-  - MLOps
+  - Data Analyst
+  - AI/ML Engineer
   - Cloud Native Development
+  - Software Development
+  - Game Engine
 
-open_to:
-  - Internship
-  - Freelance Projects
-  - Open Source Collaboration
 ```
 
 ---
