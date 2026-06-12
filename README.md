@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:4F46E5,50:7C3AED,100:A855F7&text=Muhammad%20Zaky%20Ramadhan&fontColor=ffffff&fontSize=42&fontAlignY=40&desc=AI%20Engineer%20•%20Full%20Stack%20Developer%20•%20Data%20Analyst&descAlignY=58" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=24&pause=1000&color=8B5CF6&center=true&vCenter=true&width=900&lines=Building+AI-Powered+Digital+Products;Full+Stack+Developer;AI+Engineer+%26+Cloud+Learner;Data+Analyst;Hackathon+Enthusiast;Open+Source+Contributor" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=24&pause=1000&color=8B5CF6&center=true&vCenter=true&width=900&lines=Full+Stack+Developer;AI+Engineer+%26+Cloud+Learner;Data+Analyst;Hackathon+Enthusiast;Open+Source+Contributor" />
 
 <br>
 
