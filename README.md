@@ -15,7 +15,7 @@
 </a>
 
 <a href="https://github.com/cybort18">
-<img src="https://img.shields.io/badge/GitHub-cybort18-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-cybort18-181737?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 <br>
@@ -139,7 +139,7 @@ exploring:
 </a>
 
 <a href="https://github.com/cybort18">
-<img src="https://img.shields.io/badge/GitHub-cybort18-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-cybort18-181737?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 </div>
