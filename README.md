@@ -79,11 +79,6 @@ I enjoy turning ideas into real-world solutions, participating in hackathons, an
 ---
 
 # GitHub Analytics
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cybort18&layout=compact&theme=tokyonight&hide_border=true"/>
-
 </div>
 
 <div align="center">
