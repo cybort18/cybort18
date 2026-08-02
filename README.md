@@ -95,30 +95,6 @@ I enjoy turning ideas into real-world solutions, participating in hackathons, an
 
 ---
 
-# Current Focus
-
-```yaml
-learning:
-  - AI Engineering
-  - Cloud Computing
-  - Backend Development
-
-building:
-  - U_Design
-  - WEB3 Software-Defined DePIN (Decentralized Physical Infrastructure Network)
-  - Turn-Based Game RPG
-
-exploring:
-  - Data Analyst
-  - AI/ML Engineer
-  - Cloud Native Development
-  - Software Development
-  - Game Engine
-
-```
-
----
-
 # Connect With Me
 
 <div align="center">
