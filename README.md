@@ -46,7 +46,7 @@ I enjoy turning ideas into real-world solutions, participating in hackathons, an
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,js,ts,html,css,react,vite,tailwind,nodejs,express,firebase,mysql,gcp,git,github,vscode" />
+<img src="https://skillicons.dev/icons?i=python,js,ts,html,css,react,vite,tailwind,nodejs,express,firebase,mysql,gcp,git,github" />
 
 </div>
 
