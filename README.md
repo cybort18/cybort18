@@ -108,14 +108,14 @@ I enjoy turning ideas into real-world solutions, participating in hackathons, an
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=cybort18&theme=tokyonight&hide_border=true"/>
+<img src="https://streak-stats.demolab.com?user=cybort18&theme=tokyonight&hide_border=true"/>
 
 #
 </div>
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=cybort18&theme=tokyo-night&hide_border=true"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=cybort18"/>
 
 </div>
 
