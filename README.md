@@ -87,11 +87,9 @@ I enjoy turning ideas into real-world solutions, participating in hackathons, an
 ---
 
 # GitHub Analytics
-</div>
-
 <div align="center">
-
 <img src="https://streak-stats.demolab.com?user=cybort18&theme=tokyonight&hide_border=true"/>
+</div>
 
 <p align="center">
   <img height="165" src="https://github-readme-stats-five-sigma-99.vercel.app/api?username=cybort18&show_icons=true&theme=tokyonight&title_color=e36209&icon_color=e36209&hide_border=true&bg_color=00000000&count_private=true" alt="stats" />
