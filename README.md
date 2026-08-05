@@ -87,10 +87,12 @@ I enjoy turning ideas into real-world solutions, participating in hackathons, an
 ---
 
 # GitHub Analytics
-<p align="center">
+<div align="center">
 <img src="https://streak-stats.demolab.com?user=cybort18&theme=tokyonight&hide_border=true"/>
+</div>
 
-<img width="50%" src="https://github-readme-activity-graph.vercel.app/graph?username=cybort18&bg_color=00000000&color=2f81f7&line=2f81f7&point=c9d1d9&area=true&hide_border=true" alt="activity graph" />
+<p align="center">
+  <img width="65%" src="https://github-readme-activity-graph.vercel.app/graph?username=cybort18&bg_color=00000000&color=2f81f7&line=2f81f7&point=c9d1d9&area=true&hide_border=true" alt="activity graph" />
 </p>
 
 <p align="center">
