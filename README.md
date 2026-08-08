@@ -82,8 +82,8 @@ I enjoy turning ideas into real-world solutions, participating in hackathons, an
 | Name Project 
 | :--- 
 | **[U_Design](https://github.com/cybort18/U_Design)**<br>A platform designed for digital creators to protect and verify ownership of their artwork using **Gemini AI**, **IPFS**, and **Firebase**.<br>🔹 **Techstact:** `React` `TypeScript` `Firebase` `Gemini AI` `IPFS` `Pinata`<br>
-| **[SIAGA](https://github.com/cybort18/SIAGA)**<br>An AI-powered system developed for the **COMPFEST 17 AI Innovation Challenge** that processes emergency audio reports and converts them into actionable information.<br>🔹 **Techstact:** `Python` `FastAPI` `PyTorch` `Transformers` `Google Cloud`<br>
-| **[MotorsportEvent](https://github.com/cybort18/MotorsportEvent)**<br>A responsive web platform covering Formula 1, FIA WEC, and WRC schedules, standings, and news.<br>🔹 **Techstact:** `HTML` `CSS` `JavaScript`<br> |
+| **[QuaComp](https://github.com/cybort18/QuaComp)**<br>An open-source CLI-based testing tool designed to test the limits of local computing capabilities in performing **quantum computer simulations**.<br>🔹 **Techstact:** `Python`<br>
+| **[FundRa](https://github.com/cybort18/FundRa)**<br>crypto-native **crowdfunding launchpad protocol** that combines no-loss yield vaults, milestone-based DAO governance, and bonding curve tokenomics to enable transparent, capital-efficient fundraising on-chain.<br>🔹 **Techstact:** `Next.js` `Tailwind CSS` `TypeScript` `EVM Wallet Connection`<br> |
 ---
 
 # GitHub Analytics
