@@ -77,28 +77,15 @@ I enjoy turning ideas into real-world solutions, participating in hackathons, an
 
 ---
 
-# Featured Projects
-
-| Name Project 
-| :--- 
-| **[U_Design](https://github.com/cybort18/U_Design)**<br>A platform designed for digital creators to protect and verify ownership of their artwork using **Gemini AI**, **IPFS**, and **Firebase**.<br>🔹 **Techstact:** `React` `TypeScript` `Firebase` `Gemini AI` `IPFS` `Pinata`<br>
-| **[QuaComp](https://github.com/cybort18/QuaComp)**<br>An open-source CLI-based testing tool designed to test the limits of local computing capabilities in performing **quantum computer simulations**.<br>🔹 **Techstact:** `Python`<br>
-| **[FundRa](https://github.com/cybort18/FundRa)**<br>crypto-native **crowdfunding launchpad protocol** that combines no-loss yield vaults, milestone-based DAO governance, and bonding curve tokenomics to enable transparent, capital-efficient fundraising on-chain.<br>🔹 **Techstact:** `Next.js` `Tailwind CSS` `TypeScript` `EVM Wallet Connection`<br> |
----
-
 # GitHub Analytics
-<div align="center">
-<img src="https://streak-stats.demolab.com?user=cybort18&theme=tokyonight&hide_border=true"/>
-</div>
-
-<p align="center">
-  <img width="80%" src="https://github-readme-activity-graph.vercel.app/graph?username=cybort18&bg_color=00000000&color=2f81f7&line=2f81f7&point=c9d1d9&area=true&hide_border=true" alt="activity graph" />
-</p>
-
 <p align="center">
   <img height="165" src="https://github-readme-stats-five-sigma-99.vercel.app/api?username=cybort18&show_icons=true&theme=tokyonight&title_color=2f81f7&icon_color=2f81f7&hide_border=true&bg_color=00000000&count_private=true" alt="stats" />
 
 <img height="165" src="https://github-readme-stats-five-sigma-99.vercel.app/api/top-langs/?username=cybort18&layout=compact&theme=tokyonight&title_color=2f81f7&icon_color=2f81f7&hide_border=true&bg_color=00000000&langs_count=8" alt="top langs" />
+</p>
+
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=cybort18&bg_color=00000000&color=2f81f7&line=2f81f7&point=c9d1d9&area=true&hide_border=true" alt="activity graph" />
 </p>
 
 ---
