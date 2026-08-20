@@ -112,7 +112,7 @@ I enjoy turning ideas into real-world solutions, participating in hackathons, an
 
 <div align="center">
 
- *Building technology that transforms ideas into meaningful impact.*
+ *Life find a way, don't search life if you no have way.*
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:4F46E5,50:7C3AED,100:A855F7"/>
 
