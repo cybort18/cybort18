@@ -38,7 +38,7 @@ I enjoy turning ideas into real-world solutions, participating in hackathons, an
 
 * Artificial Intelligence & Machine Learning
 * Full Stack Development
-* Backend Engineering
+* Quantum Computing
 * Cloud Computing
 * Data Analytics
 
