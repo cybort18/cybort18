@@ -4,6 +4,12 @@ on:
   schedule: # Runs every day at 18:00 UTC (01:00 WIB)
     - cron: "0 18 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'profile-3d-contrib/**'
+      - 'README.md'
 
 permissions:
   contents: write
@@ -24,6 +30,6 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add -A .
-          if git commit -m "chore: update 3d contribution graph"; then
+          if git commit -m "chore: update 3d contribution graph [skip ci]"; then
             git push
           fi
