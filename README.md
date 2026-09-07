@@ -79,9 +79,9 @@ I enjoy turning ideas into real-world solutions, participating in hackathons, an
 
 # GitHub Analytics
 <p align="center">
-  <img height="200" src="https://github-readme-stats-five-sigma-99.vercel.app/api?username=cybort18&show_icons=true&theme=tokyonight&title_color=2f81f7&icon_color=2f81f7&hide_border=true&bg_color=00000000&count_private=true" alt="stats" />
+  <img height="200" src="https://github-readme-stats-five-sigma-99.vercel.app/api?username=cybort18&show_icons=true&title_color=C084FC&text_color=e2e8f0&icon_color=8B5CF6&ring_color=7C3AED&hide_border=true&bg_color=00000000&count_private=true" alt="stats" />
 
-<img height="200" src="https://github-readme-stats-five-sigma-99.vercel.app/api/top-langs/?username=cybort18&layout=compact&theme=tokyonight&title_color=2f81f7&icon_color=2f81f7&hide_border=true&bg_color=00000000&langs_count=8" alt="top langs" />
+<img height="200" src="https://github-readme-stats-five-sigma-99.vercel.app/api/top-langs/?username=cybort18&layout=compact&title_color=C084FC&text_color=e2e8f0&hide_border=true&bg_color=00000000&langs_count=8" alt="top langs" />
 </p>
 
 ### 3D Contribution Graph

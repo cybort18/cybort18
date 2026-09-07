@@ -25,6 +25,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
           SETTING_JSON: conf/github-profile-3d-contrib.json
+      - name: Optimize 3D Graph (Remove Radar & Gap)
+        run: |
+          node scripts/optimize_svg.js
       - name: Commit & Push
         run: |
           git config user.name github-actions
