@@ -2,44 +2,97 @@ const fs = require('fs');
 
 function optimizeSvg(filePath) {
   if (!fs.existsSync(filePath)) return;
-  let svg = fs.readFileSync(filePath, 'utf8');
+  const svg = fs.readFileSync(filePath, 'utf8');
 
-  // 1. Remove date text at top right if present
-  svg = svg.replace(/<text[^>]*y="20"[^>]*>[\s\S]*?<\/text>/g, '');
+  // 1. Extract style block
+  const styleStart = svg.indexOf('<style>');
+  const styleEnd = svg.indexOf('</style>') + 8;
+  if (styleStart === -1 || styleEnd === -1) {
+    console.log(`Could not find style block in ${filePath}`);
+    return;
+  }
+  const styleContent = svg.substring(styleStart, styleEnd);
 
-  // 2. Remove radar chart group
-  // The radar chart has class="radar"
-  const radarMatch = svg.match(/<g transform="translate\(980[^\"]*\"[\s\S]*?<\/polygon>\s*<\/g>/);
-  if (radarMatch) {
-    svg = svg.replace(radarMatch[0], '');
-    console.log('Removed radar chart from', filePath);
+  // 2. Find rectEnd
+  const rectMatch = svg.match(/<rect[^>]*class="fill-bg"[^>]*><\/rect>/);
+  if (!rectMatch) {
+    console.log(`Could not find background rect in ${filePath}`);
+    return;
+  }
+  const rectEnd = svg.indexOf(rectMatch[0]) + rectMatch[0].length;
+
+  // 3. Scan top-level groups after background rect
+  let depth = 0;
+  let groupStart = -1;
+  const groups = [];
+
+  for (let i = rectEnd; i < svg.length; i++) {
+    if (svg.substr(i, 2) === '<g' && (svg[i+2] === ' ' || svg[i+2] === '>')) {
+      if (depth === 0) groupStart = i;
+      depth++;
+    } else if (svg.substr(i, 4) === '</g>') {
+      depth--;
+      if (depth === 0) {
+        groups.push({
+          start: groupStart,
+          end: i + 4,
+          content: svg.substring(groupStart, i + 4)
+        });
+      }
+    }
   }
 
-  // 3. Shift everything up by Y_SHIFT to remove top void
+  if (groups.length < 4) {
+    console.log(`File ${filePath} has unexpected group count (${groups.length}), skipping.`);
+    return;
+  }
+
+  const group0 = groups[0].content; // 3D isometric commit blocks
+  // groups[1] is the radar chart - excluded completely!
+  const group2 = groups[2].content; // Language donut chart
+  let group3 = groups[3].content;   // Bottom stats (contributions, stars, forks)
+
+  // Remove top right date text from group3 if present
+  group3 = group3.replace(/<text[^>]*y="20"[^>]*>[\s\S]*?<\/text>/, '');
+
   const Y_SHIFT = 135;
   const NEW_HEIGHT = 850 - Y_SHIFT; // 715
 
-  // Update SVG height and viewBox
-  svg = svg.replace(/height="850"/g, `height="${NEW_HEIGHT}"`);
-  svg = svg.replace(/viewBox="0 0 1280 850"/g, `viewBox="0 0 1280 ${NEW_HEIGHT}"`);
+  // Assemble the reconstructed, 100% compliant and valid SVG
+  const optimizedSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="${NEW_HEIGHT}" viewBox="0 0 1280 ${NEW_HEIGHT}">${styleContent}<rect x="0" y="0" width="1280" height="${NEW_HEIGHT}" class="fill-bg"></rect><g transform="translate(0, -${Y_SHIFT})">${group0}${group2}${group3}</g></svg>`;
 
-  // Update background rect height
-  svg = svg.replace(/<rect([^>]*)height="850"([^>]*)class="fill-bg"/g, `<rect$1height="${NEW_HEIGHT}"$2class="fill-bg"`);
+  // Strict XML Validation check before writing to disk
+  const stack = [];
+  const regex = /<(\/)?([a-zA-Z0-9:-]+)([^>]*?)(\/)?>/g;
+  let m;
+  let hasError = false;
 
-  // Wrap all elements after <rect ... class="fill-bg"> in a shifted group (if not already shifted)
-  if (!svg.includes('transform="translate(0, -')) {
-    const bgRectEnd = svg.indexOf('class="fill-bg">') + 'class="fill-bg">'.length;
-    const svgEnd = svg.lastIndexOf('</svg>');
+  while ((m = regex.exec(optimizedSvg)) !== null) {
+    const isClose = !!m[1];
+    const tagName = m[2];
+    const isSelfClosing = !!m[4] || m[3].trim().endsWith('/');
 
-    const content = svg.substring(bgRectEnd, svgEnd);
-    const newContent = `\n<g transform="translate(0, -${Y_SHIFT})">\n${content}\n</g>\n`;
+    if (tagName === 'link' || tagName === 'meta' || tagName === 'img' || tagName === 'br' || tagName === 'hr') continue;
 
-    svg = svg.substring(0, bgRectEnd) + newContent + svg.substring(svgEnd);
+    if (!isSelfClosing) {
+      if (isClose) {
+        if (stack.length === 0 || stack.pop() !== tagName) {
+          hasError = true;
+          break;
+        }
+      } else {
+        stack.push(tagName);
+      }
+    }
   }
 
-  fs.writeFileSync(filePath, svg, 'utf8');
-  console.log(`Optimized ${filePath}: new height = ${NEW_HEIGHT}, shifted up by ${Y_SHIFT}px`);
-  console.log(`Checks: hasRadar=${svg.includes('class="radar"')}, hasPullReq=${svg.includes('PullReq')}`);
+  if (hasError || stack.length > 0) {
+    console.error(`XML validation failed for ${filePath}! Aborting optimization.`);
+    return;
+  }
+
+  fs.writeFileSync(filePath, optimizedSvg, 'utf8');
+  console.log(`Successfully optimized and validated ${filePath} (height: ${NEW_HEIGHT}, shift: -${Y_SHIFT}px)`);
 }
 
 optimizeSvg('profile-3d-contrib/profile-night-purple.svg');
